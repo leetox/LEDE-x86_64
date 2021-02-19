@@ -109,3 +109,9 @@ jobs:
       with:
         name: Lean_openwrt
         path: openwrt/bin
+        
+    - name : 上传下载目录
+      uses: actions/upload-artifact@master
+      with:
+        name: Lean_openwrt_dl
+        path: openwrt/dl
